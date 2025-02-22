@@ -112,7 +112,7 @@ def single_simulation_run(n):
     df['v'] = [x['v'] for x in outputs]
     return df
 
-def simualte_li_ion_battery(params):
+def simulate_li_ion_battery(params):
     n = 0
     while n < params['number_of_trajectories']:
         # try:
