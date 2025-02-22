@@ -1,7 +1,7 @@
 from copy import deepcopy
 import numpy as np
 import pandas as pd
-from prog_models.models import BatteryElectroChem
+from progpy.models import BatteryElectroChem
 
 
 
